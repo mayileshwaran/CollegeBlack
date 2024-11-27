@@ -1,0 +1,283 @@
+.arts{
+    display: flex;
+   }
+.arts h1{
+    position: relative;
+    font-size: 50px;
+    top: 0%;
+    right:0%;
+}
+.arts p{
+    position: relative;
+    left: 0%;
+    bottom: 10%;
+    font-size: 30px;
+    align-self: center;
+
+}
+.science{
+    display: flex;
+   }
+.science h1{
+    position: relative;
+    font-size: 50px;
+    top: 0%;
+    right:0%;
+}
+.science p{
+     position: relative;
+    left: 0%;
+    bottom: 40%;
+    font-size: 30px;
+    align-self: center;
+
+} 
+.medical{
+    display: flex;
+    gap: 10;
+   }
+.medical h1{
+    position: relative;
+    font-size: 50px;
+    top: 0%;
+    right:0%;
+}
+.medical p{
+    position: relative;
+    left: 0%;
+    top: 60%;
+    font-size: 30px;
+    align-self: center;
+}
+.engineering{
+    display: flex;
+   }
+.engineering h1{
+    position: relative;
+    font-size: 50px;
+    top: 0%;
+    right:0%;
+}
+.engineering p{
+    position: relative;
+    left: 0%;
+    top: 40%;
+    font-size: 30px;
+    align-self: center;
+
+}
+.law{
+    display: flex; 
+    
+   }
+   
+.law h1{
+    position: relative;
+    font-size: 50px;
+    top: 0%;
+    right:0%;
+}
+.law p{
+    position: relative;
+    left: 0%;
+    top: 40%;
+    font-size: 30px;
+    align-self: center;
+}
+.arts-course {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.arts-course .course-arts img{
+  height: 250px;
+  width: 250px;
+}
+.arts-course .course-arts{
+  height: 300px;
+  width: 250px;
+  border: 3px solid #FA7003;
+  border-radius: 5px;
+}
+.course-science{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.course-science .science-course img{
+  height: 250px;
+  width: 250px;
+}
+.course-science .science-course{
+  height: 350px;
+  width: 250px;
+  border: 3px solid #FA7003;
+  border-radius: 5px;
+}
+
+.medical-course .course-medical{
+  height: 350px;
+  width: 250px;
+  border: 3px solid #FA7003;
+  border-radius: 5px;
+  align-items: start;
+}
+.medical-course{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.medical-course .course-medical img{
+  height: 250px;
+  width: 250px;
+}
+.course-law .law-course{
+  height: 350px;
+  width: 250px;
+  border: 3px solid #FA7003;
+  border-radius: 5px;
+  align-items: start;
+}
+.course-law{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.course-law .law-course img{
+  height: 250px;
+  width: 250px;
+}
+.eng-course .course-eng{
+  height: 350px;
+  width: 250px;
+  border: 3px solid #FA7003;
+  border-radius: 5px;
+  align-items: start;
+}
+.eng-course{
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+.eng-course .course-eng img{
+  height: 250px;
+  width: 250px;
+}
+
+
+@media only screen and (max-width:768px){
+   
+    .arts h1{
+   font-size: 20px;
+  }
+  .arts img{
+    height: 200px;
+  }
+  .arts p{
+    font-size: 15px;
+  }
+ .science h1{
+    font-size: 20px;
+   }
+  .science img{
+     height: 200px;
+   }
+  .science p{
+     font-size: 15px;
+   }
+   .medical h1{
+    font-size: 20px;
+   }
+  .medical img{
+     height: 200px;
+   }
+  .medical p{
+     font-size: 15px;
+   }
+   .engineering h1{
+    font-size: 20px;
+   }
+  .engineering img{
+     height: 200px;
+   }
+  .engineering p{
+     font-size: 15px;
+   }
+   .law h1{
+    font-size: 20px;
+   }
+  .law img{
+     height: 200px;
+   }
+  .law p{
+     font-size: 15px;
+   }
+}
+@media only screen and (max-width:425px){
+   
+    .arts h1{
+   font-size: 18px;
+  }
+  .arts img{
+    height: 100px;
+  }
+  .arts p{
+    font-size: 10px;
+  }
+ .science h1{
+    font-size: 18px;
+   }
+  .science img{
+     height: 100px;
+   }
+  .science p{
+     font-size: 10px;
+   }
+   .medical h1{
+    font-size: 18px;
+   }
+  .medical img{
+     height: 100px;
+   }
+  .medical p{
+     font-size: 10px;
+   }
+   .engineering h1{
+    font-size: 18px;
+   }
+  .engineering img{
+     height: 100px;
+   }
+  .engineering p{
+     font-size: 10px;
+   }
+   .law h1{
+    font-size: 18px;
+   }
+  .law img{
+     height: 100px;
+   }
+  .law p{
+     font-size: 10px;
+   }
+   ul li{
+    font-size: 10px;
+   }
+   
+}

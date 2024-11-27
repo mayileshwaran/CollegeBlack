@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    gap:40px;
+    align-items: center;
+    justify-content: center;
+}
+.net{
+    color: #FDDDC2;
+    width: 25vh;
+    background-color: transparent;
+    box-shadow: 5px 5px 4px  black;
+    border: 2px solid #EF7915;
+    padding: 10px;
+
+}
+.coll{
+    color: #FDDDC2;
+    width: 25vh;
+    background-color: transparent;
+    box-shadow: 5px 5px 4px  black;
+    border: 2px solid #EF7915;
+    padding: 10px;
+
+}
+.active{
+color: #EF7915;
+}
+.dip{
+    color: #FDDDC2;
+    width: 25vh;
+    background-color: transparent;
+    box-shadow: 5px 5px 4px  black;
+    border: 2px solid #EF7915;
+    padding: 10px;
+}
+
+.image img{
+    /* align-items: center;
+    justify-content: center; */
+    object-fit: cover;
+    object-position: center;
+    width: 98%;
+}
+
+    @media only screen and (max-width:375px){
+       
+        .about{
+            flex-direction: column;
+        }
+}
+
