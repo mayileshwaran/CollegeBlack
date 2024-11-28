@@ -94,7 +94,7 @@ Li {
     align-items: center;
     justify-content: center;
     color: #FA7003;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -160,7 +160,7 @@ Li {
     align-items: center;
     justify-content: center;
     color: #FA7003;
-    gap: 10px;
+    gap:20px;
     flex-wrap: wrap;
 }
 
@@ -226,7 +226,7 @@ Li {
     align-items: center;
     justify-content: center;
     color: #FA7003;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -288,10 +288,11 @@ Li {
 
 }
 
-.cards {
+.mencard {
     display: flex;
-    flex-wrap: wrap;
+  
     gap: 20px;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -300,6 +301,7 @@ Li {
     box-shadow: 1px 1px 4px white;
     border: 2px solid #EF7915;
     padding: 20px;
+    width: 100px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -464,9 +466,9 @@ Li {
     width: 100%;
 }
 
-.footer {
+.foot .footer {
     display: flex;
-    width: 100%;
+    flex-direction: row;
 }
 
 .footer .left-foot {
@@ -555,6 +557,15 @@ Li {
     font-size: 30px;
     color: #FDDDC2;
 }
+.foot .copy{
+    display: flex;
+    gap: 20px;
+}
+.foot  .copy a{
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #EF7915;
+}
 
 @media only screen and (max-width:1100px) {
     .banner {
@@ -573,6 +584,9 @@ Li {
 
     .caro img {
         width: 98%;
+    }
+    .mencard {
+        flex-wrap: wrap;
     }
 
 }
@@ -594,7 +608,11 @@ Li {
     .caro img {
         width: 750px;
     }
+    .foot .footer{
+        flex-direction: column;
+    }
 }
+
 
 @media only screen and (max-width:500px) {
     .banner {
